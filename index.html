@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="Research Results" name="description" />
+    <title>
+        Neural James-Stein Combiner for Unbiased and Biased Renderings
+    </title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600" rel="stylesheet" type="text/css" />
+    <link href="utils/report.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="content" id="content">
+        <h1 class="title">
+            Neural James-Stein Combiner for Unbiased and Biased Renderings (Supplementary Material)
+        </h1>
+        <p class="Submission ID">
+            Submision ID: 390 <br>
+        </p>
+        <h2>
+            Overview
+        </h2>
+        <p>
+            In this supplemental material, we compare our technique to state-of-the-art denoisers (KPCN [1] and AFGSA [2]) and post-denoisers (DC [3], ED [4] and PD [5]).
+            In addition, our method is compared with BDPT [6] and SPPM [7]. The full-resolution results of the tested techniques correspond to the results in the main paper. 
+        </p>
+        <p>
+            Click the images below.
+        </p>
+        <h2>
+            Comparisons with DC and PD (Fig. 9 in the paper)
+        </h2>
+        <div class="element-container">
+            <div class="report-preview">
+                <a href="equaltime_post_recon/curly-hair/index.html">
+                    <img class="report-thumb" src="equaltime_post_recon/curly-hair/images/hair_gt.png" />
+                </a>
+                <br />
+                Curly-hair
+            </div>
+            <div class="report-preview">
+                <a href="equaltime_post_recon/dragon/index.html">
+                    <img class="report-thumb" src="equaltime_post_recon/dragon/images/dragon2_gt.png" />
+                </a>
+                <br />
+                Dragon
+            </div>
+            <div class="report-preview">
+                <a href="equaltime_post_recon/glass-of-water/index.html">
+                    <img class="report-thumb" src="equaltime_post_recon/glass-of-water/images/glass_gt.png" />
+                </a>
+                <br />
+                Glass-of-water
+            </div>
+            <div class="report-preview">
+                <a href="equaltime_post_recon/staircase/index.html">
+                    <img class="report-thumb" src="equaltime_post_recon/staircase/images/staircase_gt.png" />
+                </a>
+                <br />
+                Staircase
+            </div>
+            <div class="report-preview">
+                <a href="equaltime_post_recon/veach-ajar/index.html">
+                    <img class="report-thumb" src="equaltime_post_recon/veach-ajar/images/veach_gt.png" />
+                </a>
+                <br />
+                Veach-ajar
+            </div>
+        </div>
+        <h2>
+            Comparisons with ED (Fig. 10 in the paper)
+        </h2>
+        <div class="element-container">
+            <div class="report-preview">
+                <a href="equaltime_ed/curly-hair/index.html">
+                    <img class="report-thumb" src="equaltime_ed/curly-hair/images/hair_gt.png" />
+                </a>
+                <br />
+                Curly-hair
+            </div>
+            <div class="report-preview">
+                <a href="equaltime_ed/dragon/index.html">
+                    <img class="report-thumb" src="equaltime_ed/dragon/images/dragon_gt.png" />
+                </a>
+                <br />
+                Dragon
+            </div>
+            <div class="report-preview">
+                <a href="equaltime_ed/glass-of-water/index.html">
+                    <img class="report-thumb" src="equaltime_ed/glass-of-water/images/glass_gt.png" />
+                </a>
+                <br />
+                Glass-of-water
+            </div>
+            <div class="report-preview">
+                <a href="equaltime_ed/staircase/index.html">
+                    <img class="report-thumb" src="equaltime_ed/staircase/images/staircase_gt.png" />
+                </a>
+                <br />
+                Staircase
+            </div>
+            <div class="report-preview">
+                <a href="equaltime_ed/veach-ajar/index.html">
+                    <img class="report-thumb" src="equaltime_ed/veach-ajar/images/veach_gt.png" />
+                </a>
+                <br />
+                Veach-ajar
+            </div>
+        </div>
+
+        <h2>
+            Comparisons with BDPT and SPPM (Fig. 14 in the paper)
+        </h2>
+        <div class="element-container">
+            <div class="report-preview">
+                <a href="equaltime_sppm/pool/index.html">
+                    <img class="report-thumb" src="equaltime_sppm/pool/images/pool_ref.png" />
+                </a>
+                <br />
+                Pool
+            </div>
+            <div class="report-preview">
+                <a href="equaltime_sppm/bookshelf/index.html">
+                    <img class="report-thumb" src="equaltime_sppm/bookshelf/images/bookshelf_ref.png" />
+                </a>
+                <br />
+                Bookshelf
+            </div>
+        </div>
+
+        <p>
+            This viewer is a simplified one of an interactive viewer publicly released in [8].
+        </p>
+
+        <h2>
+            References
+        </h2>
+        <p>
+            [1] Steve Bako, Thijs Vogels, Brian McWilliams, Mark Meyer, Jan Novák, Alex Harvill,
+            Pradeep Sen, Tony Derose, and Fabrice Rousselle. 2017. Kernel-predicting convolutional
+            networks for denoising Monte Carlo renderings. <i>ACM Trans. Graph.</i> 36, 4
+            (2017), 14 pages.<br>
+            [2] Jiaqi Yu, Yongwei Nie, Chengjiang Long, Wenju Xu, Qing Zhang, and Guiqing Li. 2021.
+            Monte Carlo Denoising via Auxiliary Feature Guided Self-Attention. <i>ACM Trans. Graph.</i> 40, 6 (2021), 13 pages. <br>
+            [3] Jonghee Back, Binh-Son Hua, Toshiya Hachisuka, and Bochang Moon. 2020. Deep combiner for independent and
+            correlated pixel estimates. <i>ACM Trans. Graph.</i> 39, 6, Article 242 (December 2020), 12 pages.<br>
+            [4] Shaokun Zheng, Fengshi Zheng, Kun Xu, and Ling-Qi Yan. 2021. Ensemble denoising
+            for Monte Carlo renderings. <i>ACM Trans. Graph.</i> 40, 6 (2021), 17 pages.<br>
+            [5] Arthur Firmino, Jeppe Revall Frisvad, and Henrik Wann Jensen. 2022. Progressive
+            Denoising of Monte Carlo Rendered Images. <i>Computer Graphics Forum (2022).</i>
+            [6] Eric P. Lafortune and Yves D. Willems. 1993. Bi-directional path tracing. <i>In Proceedings
+                of Third International Conference on Computational Graphics and Visualization
+                Techniques (Compugraphics ’93)</i> Alvor, Portugal, 145–153.<br>
+            [7] Toshiya Hachisuka and Henrik Wann Jensen. 2009. Stochastic Progressive Photon
+            Mapping. <i>ACM Trans. Graph.</i> 28, 5 (2009), 8 pages.<br>
+            [8] Joey Litalien, interactive-viewer, GitHub repository, https://github.com/joeylitalien/interactive-viewer
+        </p>
+    </div>
+</body>
+
+</html>
+
